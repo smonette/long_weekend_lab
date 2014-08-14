@@ -25,7 +25,7 @@ Some tips to help you out:
 - Check out site websites like:
 	- [adobe kuler](https://kuler.adobe.com/) - to see popular color schemes and figure out what colors go well with each other
 		- while you are there, learn about the basics of [color theory](http://webdesign.tutsplus.com/articles/an-introduction-to-color-theory-for-web-designers--webdesign-1437) - it is an __essential__ skill if you want to do front-end design/development  
-	- [subtulepatters](http://subtlepatterns.com/), to find cool patterns for your backgrounds  
+	- [subtlepatters](http://subtlepatterns.com/), to find cool patterns for your backgrounds  
 	- [iconfinder](https://www.iconfinder.com/) - for some good looking icons for your project
 	- [behance](https://www.behance.net/search?field=102) - to see what people are designing and what the community thinks
 
