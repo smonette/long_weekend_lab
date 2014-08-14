@@ -13,8 +13,9 @@ Here are a few popular libraries and technologies to check out as you start to t
 - [famo.us](https://famo.us/)
 - [chart.js](http://www.chartjs.org/)
 - [masonry](http://masonry.desandro.com/)
+- [paper.js](http://paperjs.org/)
 - [canvas](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Canvas_tutorial)
-- [css3 transitions](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_transitions)
+- [css3 transitions](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_transitions) and [this](http://www.adobe.com/devnet/html5/articles/using-css3-transitions-a-comprehensive-guide.html)
 
 - Find even more [here](http://www.jsdb.io/?sort=rating) 
 
