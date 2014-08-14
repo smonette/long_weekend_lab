@@ -1,6 +1,6 @@
 ## One project in 72(ish) hours
 
-In the spirit of Jenifer Dewalt's 180 websites in 180 days, we'd like you to revisit JavaScript and create an app over the next 72+ hours using an external library or technology. The goal for this assignment is to add an additional project to your github page that shows off your creativity and styling abilities. __You will be presenting your project on Tuesday morning__ 
+In the spirit of Jennifer Dewalt's 180 websites in 180 days, we'd like you to revisit JavaScript and create an app over the next 72+ hours using an external library or technology. The goal for this assignment is to add an additional project to your github page that shows off your creativity and styling abilities. __You will be presenting your project on Tuesday morning__ 
 
 Here are a few popular libraries and technologies to check out as you start to think of your idea:
 
