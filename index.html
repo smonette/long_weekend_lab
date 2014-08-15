@@ -2,26 +2,24 @@
 <head>
   <title>Long Weekend Lab</title>
   <link rel="stylesheet" type="styles/styles/css" href="styles/styles.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
-<h1>Much ball. Very box.</h1>
-
 <ul id="scene" class="scene">
-  <li class="layer layer3" data-depth="0.20">
-    <canvas id="large" class="balls" width="1000" height="700"></canvas>
+
+  <li class="layer layer4" id="still" data-depth="0.0">
+    <canvas id="test" class="balls"></canvas>
   </li>
-  <li class="layer layer2" data-depth="0.60">
-    <canvas id="med" class="balls" width="1000" height="700"></canvas>
-  </li>
-  <li class="layer layer1" data-depth="1.00">
-    <canvas id="small" class="balls" width="1000" height="700"></canvas>
-  </li>
+  <li class="layer layer3" data-depth="0.20"> </li>
+  <li class="layer layer2" data-depth="0.70"> </li>
+  <li class="layer layer1" data-depth="1.00"> </li>
 </ul>
 
 
   <!-- Scripts -->
-  <script src="js/parallax.js"></script>
-  <script src="js/bouncing.js"></script>
+  <script type="text/javascript" src="js/parallax.js"></script>
+  <script type="text/javascript" src="js/bouncing.js"></script>
+
   <script>
 
   // Pretty simple huh?
@@ -29,6 +27,8 @@
   var parallax = new Parallax(scene);
 
   </script>
-
+  <!-- <script type="text/javascript" src="js/paper-full.js"></script>
+  <script type="text/paperscript" src="js/bouncing-large.js"  canvas="large"></script>
+  <script type="text/paperscript" src="js/bouncing-med.js"  canvas="med"></script> -->
 </body>
 </html>
