@@ -1,0 +1,22 @@
+{
+  "name": "long_weekend_lab",
+  "version": "0.0.0",
+  "description": "experimenting with front end frameworks",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smonette/long_weekend_lab"
+  },
+  "author": "steph monette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smonette/long_weekend_lab/issues"
+  },
+  "homepage": "https://github.com/smonette/long_weekend_lab",
+  "dependencies": {
+    "gulp": "^3.8.7"
+  }
+}
