@@ -1,34 +1,54 @@
-<!DOCTYPE html>
-<head>
-  <title>Long Weekend Lab</title>
-  <link rel="stylesheet" type="styles/styles/css" href="styles/styles.css">
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-</head>
-<body>
-<ul id="scene" class="scene">
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Long Weekend</title>
 
-  <li class="layer layer4" id="still" data-depth="0.0">
-    <canvas id="test" class="balls"></canvas>
-  </li>
-  <li class="layer layer3" data-depth="0.20"> </li>
-  <li class="layer layer2" data-depth="0.70"> </li>
-  <li class="layer layer1" data-depth="1.00"> </li>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+        <link rel="stylesheet" type="text/css" href="styles/animate.css" />
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    </head>
+<body>
+
+<ul id="toys">
+  <li class="sm"></li>
+  <li class="sm"></li>
+  <li class="md"></li>
+  <li class="md"></li>
+  <li class="lg"></li>
+  <li class="lg"></li>
+</ul>
+
+<ul id="pizza">
+  <li class="sm"></li>
+  <li class="sm"></li>
+  <li class="md"></li>
+  <li class="md"></li>
+  <li class="lg"></li>
+  <li class="lg"></li>
+</ul>
+
+
+<ul id="scene" class="scene">
+  <li class="layer layer4" data-depth="0.10"> </li>
+  <li class="layer layer3" data-depth="0.30"> </li>
+  <li class="layer layer2" data-depth="0.40"> </li>
+  <li class="layer layer1" data-depth="0.90"> </li>
 </ul>
 
 
   <!-- Scripts -->
   <script type="text/javascript" src="js/parallax.js"></script>
-  <script type="text/javascript" src="js/bouncing.js"></script>
 
-  <script>
+<script type="text/javascript">
 
   // Pretty simple huh?
   var scene = document.getElementById('scene');
   var parallax = new Parallax(scene);
 
   </script>
-  <!-- <script type="text/javascript" src="js/paper-full.js"></script>
-  <script type="text/paperscript" src="js/bouncing-large.js"  canvas="large"></script>
-  <script type="text/paperscript" src="js/bouncing-med.js"  canvas="med"></script> -->
+   <script type="text/javascript" src="js/bounce.js"></script>
+
 </body>
 </html>
+
+
