@@ -6,47 +6,59 @@
         <link rel="stylesheet" type="text/css" href="styles/styles.css" />
         <link rel="stylesheet" type="text/css" href="styles/animate.css" />
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     </head>
 <body>
 
-<ul id="toys">
-  <li class="sm"></li>
-  <li class="sm"></li>
-  <li class="md"></li>
-  <li class="md"></li>
-  <li class="lg"></li>
-  <li class="lg"></li>
-</ul>
-
-<ul id="pizza">
-  <li class="sm"></li>
-  <li class="sm"></li>
-  <li class="md"></li>
-  <li class="md"></li>
-  <li class="lg"></li>
-  <li class="lg"></li>
-</ul>
 
 
 <ul id="scene" class="scene">
+  <li class="layer layer5" data-depth="0.50">
+    <div id="pizza-fun" class="fun">
+      <div class="pizza sm"></div>
+      <div class="pizza md"></div>
+      <div class="pizza sm"></div>
+      <div class="pizza lg"></div>
+      <div class="pizza sm"></div>
+      <div class="pizza md"></div>
+      <div class="pizza lg"></div>
+    </div>
+  </li>
+    <li class="layer layer6" data-depth="0.10">
+    <div id="toy-fun" class="fun">
+      <div class="toys sm"></div>
+      <div class="toys lg"></div>
+      <div class="toys md"></div>
+      <div class="toys sm"></div>
+      <div class="toys lg"></div>
+      <div class="toys md"></div>
+      <div class="toys sm"></div>
+    </div>
+  </li>
   <li class="layer layer4" data-depth="0.10"> </li>
   <li class="layer layer3" data-depth="0.30"> </li>
   <li class="layer layer2" data-depth="0.40"> </li>
-  <li class="layer layer1" data-depth="0.90"> </li>
+  <li class="layer layer1" data-depth="1.00"> </li>
 </ul>
 
 
   <!-- Scripts -->
-  <script type="text/javascript" src="js/parallax.js"></script>
+  <script type="text/javascript" src="js/jquery.parallax.js"></script>
 
-<script type="text/javascript">
+  <script type="text/javascript">
 
-  // Pretty simple huh?
-  var scene = document.getElementById('scene');
-  var parallax = new Parallax(scene);
+    $('#scene').parallax();
+
+    $('#toy-fun div.sm').addClass('floating');
+    $('#toy-fun div.lg, #toy-fun div.md').addClass('pulse');
+    $('#pizza-fun div').addClass('tossing');
+
+    setInterval(function() {
+      $('#pizza-fun div').fadeToggle('slow');
+    }, 5000);
 
   </script>
-   <script type="text/javascript" src="js/bounce.js"></script>
+  <!--  <script type="text/javascript" src="js/bounce.js"></script> -->
 
 </body>
 </html>

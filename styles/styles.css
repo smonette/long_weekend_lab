@@ -25,62 +25,66 @@ li.layer:not(#still) {
 }
 li.layer1 {
   background: url('../images/layer1.png') 0 0 no-repeat;
-  background-position: 20% -10%;
+  background-position: 10% 10%;
 
 }
 li.layer2 {
   background: url('../images/cats.png') 0 0 no-repeat;
-  background-position: 40% 20%;
+  background-position: 40% 30%;
 }
 li.layer3,
 li.layer4 {
   background: url('../images/layer3.png') 0 0 no-repeat;
-  background-position: center 50%;
+  background-position: center 70%;
 }
 li.layer4 {
-  background-position: center 40%;
+  background-position: center 50%;
 }
-
-ul#toys li {
+.fun {
+  z-index: 10;
+  position: relative;
+  padding: 0 50px;
+}
+.fun div {
+  display: inline-block;
+  margin: 20px 50px;
+  box-sizing: border-box;
+}
+#pizza-fun {
+  top:15%;
+  opacity: 0.6;
+}
+.toys {
   background: url('../images/cat_toy.png') 0 0 no-repeat;
   background-size: cover;
 }
-ul#toys li.sm {
+.toys.sm {
   width: 60px;
   min-height: 40px;
 }
-ul#toys li.md {
+.toys.md {
   width: 100px;
   min-height: 65px;
-  -webkit-transform: rotate(20deg);
-  transform: rotate(20deg);
 }
-ul#toys li.lg {
+.toys.lg {
   width: 150px;
   min-height: 90px;
-  -webkit-transform: rotate(-15deg);
-  transform: rotate(-15deg);
 }
-
-ul#pizza li {
+.pizza {
   background: url('../images/pizza.png') 0 0 no-repeat;
   background-size: cover;
 }
-ul#pizza li.sm {
-  width: 42px;
-  min-height: 60px;
+.pizza.sm {
+  width: 120px;
+  min-height: 180px;
 }
-ul#pizza li.md {
-  width: 80px;
-  min-height: 120px;
-  -webkit-transform: rotate(20deg);
-  transform: rotate(20deg);
+.pizza.md {
+  width: 200px;
+  min-height: 300px;
 }
-ul#pizza li.lg {
-  width: 160px;
-  min-height: 240px;
-  -webkit-transform: rotate(-15deg);
-  transform: rotate(-15deg);
+.pizza.lg {
+  width: 250px;
+  min-height: 370px;
 }
 
 
