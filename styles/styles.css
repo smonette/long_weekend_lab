@@ -18,19 +18,17 @@ li.layer{
   list-style: none;
   height: 200%;
   background-size: cover;
-}
-li.layer:not(#still) {
   margin-left: -5%;
   margin-right: -5%;
 }
 li.layer1 {
   background: url('../images/layer1.png') 0 0 no-repeat;
-  background-position: 10% 10%;
+  background-position: 10% top;
 
 }
 li.layer2 {
   background: url('../images/cats.png') 0 0 no-repeat;
-  background-position: 40% 30%;
+  background-position: 30% 20%;
 }
 li.layer3,
 li.layer4 {
@@ -51,24 +49,24 @@ li.layer4 {
   box-sizing: border-box;
 }
 #pizza-fun {
-  top:15%;
+  top:10%;
   opacity: 0.6;
 }
-.toys {
-  background: url('../images/cat_toy.png') 0 0 no-repeat;
+.sushi {
+  background: url('../images/sushi.png') 0 0 no-repeat;
   background-size: cover;
 }
-.toys.sm {
+.sushi.sm {
   width: 60px;
-  min-height: 40px;
+  min-height: 42px;
 }
-.toys.md {
+.sushi.md {
   width: 100px;
-  min-height: 65px;
+  min-height: 68px;
 }
-.toys.lg {
+.sushi.lg {
   width: 150px;
-  min-height: 90px;
+  min-height: 103px;
 }
 .pizza {
   background: url('../images/pizza.png') 0 0 no-repeat;
