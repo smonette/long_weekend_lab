@@ -1,5 +1,11 @@
 # SPACECATS
-[demo &raquo;](http://stephmonette.com/GA/spacecat/)
+[demo &raquo;](http://stephmonette.com/GA/spacecat/index.html)
+[demo 2 &raquo;](http://stephmonette.com/GA/spacecat/page2.html)
+
+## Libraries Used
+- [parallax.js](https://github.com/wagerfield/parallax)
+- [CSS3 Annimation Cheat Sheet](http://www.justinaguilar.com/animations/index.html)
+- [konami.js](https://github.com/snaptortoise/konami-js)
 
 
 ## One project in 72(ish) hours
