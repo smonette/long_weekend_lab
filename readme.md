@@ -1,6 +1,9 @@
 # SPACECATS
-[demo &raquo;](http://stephmonette.com/GA/spacecat/index.html)
-[demo 2 &raquo;](http://stephmonette.com/GA/spacecat/page2.html)
+### [demo &raquo;](http://stephmonette.com/GA/spacecat/index.html)
+A page that uses parallax js, and css2 animations
+###[demo 2 &raquo;](http://stephmonette.com/GA/spacecat/page2.html)
+Experimenting with the konami code.
+
 
 ## Libraries Used
 - [parallax.js](https://github.com/wagerfield/parallax)
