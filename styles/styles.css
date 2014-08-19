@@ -1,5 +1,9 @@
-body {
+body.space {
   background: url('../images/galaxy.jpg') 0 0 repeat;
+}
+body.jungle {
+  background: url('../images/sloths/jungle.jpg') 0 0 repeat-y;
+  background-size: cover
 }
 
 ul {
@@ -9,7 +13,6 @@ ul {
   padding: 0;
   margin: 0 auto;
   position: absolute;
-  top:0;
   list-style: none;
 }
 
@@ -85,4 +88,19 @@ li.layer4 {
   min-height: 370px;
 }
 
+a.stop {
+  padding: 15px 25px;
+  background: #BDDA89;
+  margin: 0 auto
+}
+
+#sloth-holder {
+  width: 100%;
+  height: 100%;
+  max-height: 768px;
+  position: relative;
+}
+#sloth-holder img {
+  position: absolute;
+}
 
